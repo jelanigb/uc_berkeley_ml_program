@@ -28,7 +28,7 @@ After looking at several different sets of data, I chose to focus on drivers who
 Analysis indicated that there is a significantly higher coupon acceptance rate among drivers in certain age groups who already visit a coffee shop a few times a month (66% for 46 and over; 69% for 26 and under) vs.those who visit less frequently or never visit (37% for men in this group; 30% for women in this group). The mean acceptance rate for this coupon across all drivers was 50%.
 
 ### Next Steps & Recommendations:
-I believe this analysis could be useful for the marketing department of a Coffee Shop chain, who could decide if there would be positive for running a local offers campaign. The data indicates that the marketing team should tailor their marketing strategy and/or contnet based on target audience, e.g. repeat customers in certain age brackets, or infrequent customers in different gender groups.
+I believe this analysis could be useful for the marketing department of a Coffee Shop chain, who could decide if there would be positive ROI for running a local offers campaign. The data indicates that the marketing team should tailor their marketing strategy and/or contnet based on target audience, e.g. repeat customers in certain age brackets, or infrequent customers in different gender groups, may be more receptive to marketing language and content that is tailored to their group.
 
 ### Reference links:
 
