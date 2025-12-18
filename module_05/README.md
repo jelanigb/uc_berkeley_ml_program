@@ -32,5 +32,5 @@ I believe this analysis could be useful for the marketing department of a Coffee
 
 ### Reference links:
 
-- [Jupyter notebook]() for this project
-- [Generated charts]() from this project
+- [Jupyter notebook](https://github.com/jelanigb/uc_berkeley_ml_program/blob/main/module_05/module_05_prompt_jgb.ipynb) for this project
+- [Generated plots](https://github.com/jelanigb/uc_berkeley_ml_program/tree/main/module_05/images/generated) from this project
