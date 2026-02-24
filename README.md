@@ -11,4 +11,5 @@ including the implementation and usage of different machine learning algorithms 
 Throughout the course we will complete 3 Practical Assignments and 1 Capstone Project. Code for all
 projects will be added here as it is completed.
 
-- [Practical Application 1](https://github.com/jelanigb/uc_berkeley_ml_program/tree/main/module_05/README.md)
+- [Practical Application 1](https://github.com/jelanigb/uc_berkeley_ml_program/tree/main/practical_application_01/README.md)
+- [Practical Application 2](https://github.com/jelanigb/uc_berkeley_ml_program/tree/main/practical_application_02/README.md)
