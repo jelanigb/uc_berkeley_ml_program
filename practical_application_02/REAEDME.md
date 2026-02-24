@@ -28,7 +28,7 @@ Consumer value is mostly driven by the top 3 features:
 
 *Full breakdown of each feature's impact on our model's price calculation:*
 
-![Seaborn Barplot]("images/r2_feature_comparison.png")
+![Seaborn Barplot](images/r2_feature_comparison.png)
 
 <h2 style="color: green;">Recommendations & Supporting Details</h2>
 
@@ -46,9 +46,6 @@ Engine size is a major value-add. Moving from a 4-cylinder to a 6-cylinder or 8-
 
 1. **Focus on "Model Identity":**
 Specific models (e.g., Ford F-150 vs. Toyota Camry) carry distinct value "signatures." The model name alone captures brand reputation and reliability that "Type" (e.g., Truck vs. Sedan) does not.
-
-
-![Matplotlib plot]("images/r2_feature_comparison.png")
 
 <h2 style="color: green;">Action Items for the Dealership</h2>
 
