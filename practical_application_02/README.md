@@ -22,9 +22,13 @@ We analyzed over 400,000 vehicle records, focusing on the "Heart of the Market."
 - **Condition:** Vehicles with under 200,000 miles
 - **Volume:** Only models with at least 50 historical sales (ensuring "statistical significance")
 
-### Key Finding: 
-Consumer value is mostly driven by the top 3 features:
+### Key Findings: 
+1. **Consumer value** is mostly driven by the top 3 features:
  Year, Model, and Engine Size (Cylinders). Surprisingly, factors like paint color and transmission type have a negligible impact on price compared to the mechanical "bones" of the vehicle.
+
+1. **Model Error Rates:** Our model evaluation indicates that outliers (e.g. cars that are hard to price, such as heavily modified cars) have an impact on pricing. Our model is very accurate for "normal" cars, but it occasionally makes larger errors on rare or unique vehicles. On average, our model's price prediction is within ~25% of the actual market value.
+
+1. **Feature Coverage:** (71.3%): Our model explains 71.3% of why one car costs more than another, based solely on data (e.g. "human emotion" is removed from the equation).
 
 *Full breakdown of each feature's impact on our model's price calculation:*
 
