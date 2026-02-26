@@ -6,29 +6,38 @@
 
 ---
 
-For this assignment we were asked to analyze a 426k row data set and determine which car features have the greatest impact on the car price.
+For this assignment we were asked to analyze a 426k row data set and determine which car features have the greatest impact on the car price:
+
+*"The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing.  Your goal is to understand what factors make a car more or less expensive.  As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car."*
+
+The below document outlines my findings, methodology and analysis details.
 
 <h2 style="color: green;">Executive Summary</h2>
 
 ---
 
-**Objective:** To identify the specific vehicle attributes that drive market value and provide a data-driven tool for fine-tuning dealership inventory and pricing.
+**Objective:** My goal was to identify the specific vehicle attributes that drive market value and provide a data-driven tool for fine-tuning dealership inventory and pricing.
 
 **The Strategy:**
-We analyzed over 400,000 vehicle records, focusing on the "Heart of the Market." To ensure the model is useful for daily operations, we filtered the data to reflect a standard dealership's inventory:
+I analyzed over 400,000 vehicle records, focusing on the "Heart of the Market" (vehicles within a common price range). To ensure that the model is useful at addressing the client's key question, I filtered the data to reflect a standard dealership's inventory:
 
 - **Price Range:** 2,500 USD – 100,000 USD
-- **Age:** Vehicles from the last 15 years (up to 2021)
+- **Age:** Vehicles within a 15 year range (up to 2021)
 - **Condition:** Vehicles with under 200,000 miles
 - **Volume:** Only models with at least 50 historical sales (ensuring "statistical significance")
 
+(see additional details in the Methodology section below)
+
 ### Key Findings: 
+
+After extensive analysis and modelling, I was able to determine the following:
+
 1. **Consumer value** is mostly driven by the top 3 features:
  Year, Model, and Engine Size (Cylinders). Surprisingly, factors like paint color and transmission type have a negligible impact on price compared to the mechanical "bones" of the vehicle.
 
-1. **Model Error Rates:** Our model evaluation indicates that outliers (e.g. cars that are hard to price, such as heavily modified cars) have an impact on pricing. Our model is very accurate for "normal" cars, but it occasionally makes larger errors on rare or unique vehicles. On average, our model's price prediction is within ~25% of the actual market value.
+1. **Model Error Rates:** Evaluation of my model indicates that outliers (e.g. cars that are hard to price, such as heavily modified cars) have an impact on pricing. The model is very accurate for "normal" cars, but it occasionally makes larger errors on rare or unique vehicles. On average, our model's price prediction is within ~25% of the actual market value (Mean Absolute Percentage Error of 24.7%).
 
-1. **Feature Coverage:** (71.3%): Our model explains 71.3% of why one car costs more than another, based solely on data (e.g. "human emotion" is removed from the equation).
+1. **Feature Coverage:** (R2 score of 71.3%): Our model explains 71.3% of why one car costs more than another, based solely on data (e.g. "human emotion" is removed from the equation).
 
 *Full breakdown of each feature's impact on our model's price calculation:*
 
