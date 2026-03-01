@@ -95,6 +95,13 @@ Specific models (e.g., Ford F-150 vs. Toyota Camry) carry distinct value "signat
 
 ---
 
+<h2 style="color: green;">Reference Links:</h2>
+
+---
+
+- [Jupyter notebook](https://github.com/jelanigb/uc_berkeley_ml_program/blob/main/practical_application_02/module_11_prompt_jgb.ipynb) for this project
+- [Generated plots](https://github.com/jelanigb/uc_berkeley_ml_program/tree/main/practical_application_02/images) from this project
+
 <h2 style="color: green;">Project Methodology:</h2>
 
 ---
@@ -118,12 +125,15 @@ Data Understanding required an iterative approach -- the initial set of filters 
 ---
 
 ### Methodology:
+
 For the Data Understanding phase of CRISP-DM, I analyzed the dataset of 426k used cars and examined the metadata to better understand the form and content that is present. 
 
 #### [Data Structure & Sparse Rows]:
+
 I looked closely at the variance in non-null values across features, and decided how to handle null data case-by-case. In some cases it was appropriate to drop the rows; in other cases it was better to use [imputation](https://en.wikipedia.org/wiki/Imputation_(statistics)).
 
 #### [Feature Data Types]:
+
 I also looked closely at the `dtype` of our features:
 
 - **Numeric Features:** I examined their statistical properties (e.g. mean, median, standard deviation). 
@@ -131,6 +141,7 @@ I also looked closely at the `dtype` of our features:
 
 
 #### [Data Filtering Criteria]:
+
 I identified data filtering criteria such as:
 
 - **Outliers:** We looked at variance in feature values and use statistical tools such as IQR to evaluate the data for outliers.
@@ -138,6 +149,7 @@ I identified data filtering criteria such as:
 - **Unneeded Features:** We determined that some features were unneeded based on our output goals.
 
 #### [Visual Examination]:
+
 After undertaking some exploration of the data structure, properties and values, I generated some plots of the data, for a visual examination of properties to look for additional relationships in the data. 
 
 
@@ -167,18 +179,23 @@ Initial examination of the data revealed some useful information:
 Next I examined the data visually using Seaborn plots.
 
 ### Car Price Distributions:
+
 ![](images/car_prices.png)
 
 ### Car Volume Distribution:
+
 ![](images/manufacturer_volume.png)
 
 ### Car Pricing & Volumes by Year:
+
 ![](images/median_price_and_volume_per_year.png)
 
 ### Odometer Details:
+
 ![](images/odometer.png)
 
-### Correlation & Mutual Information Scores: 
+### Correlation & Mutual Information Scores:
+
 ![](images/correlation_and_mi.png)
 
 
