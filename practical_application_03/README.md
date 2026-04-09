@@ -14,6 +14,14 @@ Our dataset comes from the [UCI Machine Learning repository](https://archive.ics
 
 ---
 
+## Business Objective
+
+Our business objective is to build a classification model to accurately predict whether a customer will subscribe to a product offering from a bank. For this task we will be using bank data captured from the [UCI bank marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing). Our target variable name in the original dataset is `y` which is a boolean representing "has the client subscribed a term deposit?".
+
+Our approach will be to evaluate multiple classification models to determine which one is the best at predicting subscription outcomes from the marketing campaign. The specific models we will evaluate are Logistic Regression, KNN, Decision Trees, and Support Vector Machines (SVM).
+
+---
+
 ## Initial Analysis
 
 All 21 columns are present, and none have null rows. There are multiple categorical columns which could be converted to numeric columns via category encoding. For example `job` and `marital` are categorical columns with < 10 values. `month` and `day_of_week` are ordinal data. There are also several boolean features which could be a good fit for one-hot encoding.
@@ -29,14 +37,6 @@ However from the original study they included `duration` and found it to be impa
 > *Call duration is the most relevant feature, meaning that longer calls tend to increase successes.*
 
 In other words this information could be valuable in a real-world scenario (e.g. as a goal for the sales person performing the pitch to ensure they surpass a certain duration to improve their chances of a successful conversion). There are only 4 / 41,888 rows which have a duration of exactly 0 and 53 which have a duration <= 5 seconds. For these reasons the `duration` feature is included.
-
----
-
-## Business Objective
-
-Our business objective is to build a classification model to accurately predict whether a customer will subscribe to a product offering from a bank. For this task we will be using bank data captured from the [UCI bank marketing dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing). Our target variable name in the original dataset is `y` which is a boolean representing "has the client subscribed a term deposit?".
-
-Our approach will be to evaluate multiple classification models to determine which one is the best at predicting subscription outcomes from the marketing campaign. The specific models we will evaluate are Logistic Regression, KNN, Decision Trees, and Support Vector Machines (SVM).
 
 ---
 
