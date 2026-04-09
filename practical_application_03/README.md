@@ -72,7 +72,7 @@ Several macroeconomic features (`euribor3m`, `emp.var.rate`, `nr.employed`, `con
 
 ## Baseline Model
 
-Our classifier must score above **0.8874** on test accuracy in order to outperform the baseline (a dummy classifier that predicts the most frequent class — "no" — for every observation).
+Our classifier must score above **88.74%** on test accuracy in order to outperform the baseline (a dummy classifier that predicts the most frequent class — "no" — for every observation).
 
 ---
 
@@ -93,7 +93,7 @@ Using default settings for each model, we compared train time, train accuracy, a
 | Decision Tree | 0.15 | **1.0000** | 0.8906 |
 | SVM | 5.71 | 0.9179 | 0.9122 |
 
-Logistic Regression and SVM had the highest test accuracy scores at 91.22% each. However SVM took 5.4 seconds to run while Logistic Regression only took 0.12 seconds. KNN performed slightly better than baseline at 90.16% accuracy with a much faster runtime (0.03 seconds). The worst performing model was Decision Tree, with a test accuracy of only 89.06% — below the 88.74% baseline. Looking at training results, Decision Tree had 100% accuracy on the training set, a clear sign of overfitting.
+Logistic Regression and SVM had the highest test accuracy scores at 91.22% each. However SVM took 5.4 seconds to run while Logistic Regression only took 0.12 seconds. KNN performed slightly better than baseline at 90.16% accuracy with a much faster runtime (0.03 seconds). The worst performing model was Decision Tree, with a test accuracy of only 89.06% — barely above the 88.74% baseline. Looking at training results, Decision Tree had 100% accuracy on the training set, a clear sign of overfitting.
 
 ---
 
