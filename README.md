@@ -13,3 +13,4 @@ projects will be added here as it is completed.
 
 - [Practical Application 1](practical_application_01/README.md)
 - [Practical Application 2](practical_application_02/README.md)
+- [Practical Application 3](practical_application_03/README.md)
